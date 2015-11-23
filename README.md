@@ -19,9 +19,11 @@ This week, you'll learn to create a chat room using the skills you have learnt. 
 - Bonus - Use a setInterval or setTimeout to continuously get new messages from the server
 
 ###Server data structure
+
+*edit* - username -> user
 ```
 {
-	username: 'Yang',
+	user: 'Yang',
 	message: 'Woot my first message!'
 }
 ```
