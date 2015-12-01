@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>WEEK 08 CHAT</title>
+
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/main.css">
+
+</head>
+<body>
+ 	
+<div class="container bootstrap snippet">
+    <div class="row">
+        <div class="col-md-4 col-md-offset-4">
+            <div class="portlet portlet-default">
+                <div class="portlet-heading">
+                    <div class="portlet-title">
+                        <h4><i class="fa fa-circle text-green"></i> Chatroom</h4>
+                    </div>
+                    <div class="portlet-widgets">
+                        <span class="divider"></span>
+                        <a data-toggle="collapse" data-parent="#accordion" href="#chat"><i class="fa fa-chevron-down"></i></a>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                <div id="chat" class="panel-collapse collapse in">
+                    <div>
+                    <div class="portlet-body chat-widget" style="overflow-y: auto; width: auto; height: 300px;">          
+                        <hr>
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="media">
+                                    <div class="media-body">
+                                        <h4 class="media-heading" id="printname"></h4>
+                                        <p id="printmessage"></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <hr>
+                    </div>
+                    </div>
+                    <div class="portlet-footer">
+                        <form role="form">
+                            <div class="form-group">
+                                <textarea class="form-control" id="message" placeholder="Enter message..."></textarea>
+                            </div>
+                            <div class="form-group">
+                                <input class="form-control" id="username" placeholder="User name..."></input>
+                            </div>
+                            <div class="form-group">
+                                <button type="button" class="btn btn-default pull-right" id="send">Send</button>
+                                <div class="clearfix"></div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /.col-md-4 -->
+    </div>
+</div>                
+
+<script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
