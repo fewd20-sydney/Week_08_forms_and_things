@@ -1,8 +1,8 @@
 /*
-Project Name: Blank Template
-Client: Your Client
-Author: Your Name
-Developer @GA in NYC
+Project Name: Week 8 Assignment
+Client: Relaxr
+Author: Benson Lam
+Developer @GA in SYD
 */
 
 
@@ -288,8 +288,34 @@ footer p {
   color: #fff;
   font-weight: 600;
 }
-#contact {
-  width: 70%;
+.form-group {
+  margin: 0 auto;
+}
+
+#message {
+  width: 100%;
+}
+
+form {
+  padding: 1em;
+}
+
+label {
+  width: 150px;
+}
+
+#username, #password, #firstname, #surname, #email, #telephone {
+  width: 300px;
+}
+
+#address {
+  width: 500px;
+}
+
+#successful {
+  text-align: center;
+  padding: 100px 0 300px 0;
+  display: none;
 }
 
 @media only screen and (max-width: 768px) {
@@ -366,6 +392,9 @@ footer p {
   }
   #sidebar img {
     display: none;
+  }
+  #username, #password, #firstname, #surname, #email, #telephone, #address {
+    width: 100%;
   }
 }
 
