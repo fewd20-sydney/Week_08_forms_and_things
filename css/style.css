@@ -1,0 +1,40 @@
+body {
+	font-family: helvetica, arial, 'san-serif';
+}
+.container {
+	width: 800px;
+	margin: 0 auto;
+}
+
+#chatroom {
+	width: 100%;
+	height: 400px;
+	background-color: #efefef;
+}
+label {
+	display: inline-block;
+	width: 110px;
+	text-align: right;
+	padding: 5px;
+	vertical-align: top;
+}
+input {
+	padding: 5px;
+}
+#new-chat div {
+	margin: 5px;
+}
+
+button {
+	margin-left: 125px;
+}
+small {
+	color: #666;
+}
+.messages li{
+	margin: 10px 0;
+}
+#error {
+	color: red;
+	display: none;
+}
